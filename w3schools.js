@@ -1,29 +1,4 @@
-<!DOCTYPE html>
-<html>
-<style>
-#myProgress {
-  width: 100%;
-  background-color: #ddd;
-}
 
-#myBar {
-  width: 1%;
-  height: 30px;
-  background-color: #4CAF50;
-}
-</style>
-<body>
-
-<h1>JavaScript Progress Bar</h1>
-
-<div id="myProgress">
-  <div id="myBar"></div>
-</div>
-
-<br>
-<button onclick="move()">Click Me</button> 
-
-<script>
 function move() {
   var elem = document.getElementById("myBar");   
   var width = 1;
@@ -37,7 +12,7 @@ function move() {
     }
   }
 }
-</script>
 
-</body>
-</html>
+$("#goldi").on("click" , function () {
+  alert("hello");
+});

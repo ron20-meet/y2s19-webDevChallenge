@@ -8,3 +8,24 @@
   height: 30px;
   background-color: green;
 }
+p {
+	color: red;
+
+}
+.best:hover{
+	
+	font-family: comic sans MS;
+	color: green;
+	
+
+
+}
+
+.welcome:hover{
+	font-family: comic sans MS;
+	text-align: center;
+	font-family: comic sans MS;
+} 
+body {
+	background-color:red;
+}
